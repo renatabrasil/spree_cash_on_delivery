@@ -1,0 +1,7 @@
+<% param_prefix = "order[payments_attributes]" %>
+
+<p class='field' data-hook='change'>
+	<%= label_tag :change, 'Troco' %><br />
+	<%= text_field_tag "#{param_prefix}[][change]", '', :size => 4, :maxlength => 8, :placeholder => 'R$' %>
+</p>
+
